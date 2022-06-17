@@ -17,11 +17,17 @@ Removing THS's ninth grade scores lowered the scores for the district, as displa
 #### District summary with THS 9th graders
 ![](Resources/DistrictSummary_wTHS.png)
 
-#### District summary without THS without THS 9th graders
+#### District summary without THS 9th graders
 ![](Resources/DistrictSummary_woTHS.png)
 
 ### How is the school summary affected?
-Similarly, THS's statistics were also affected.  
+Similarly, THS's statistics were also affected.
+
+* Average Math Score went from 83.4 to 83.3
+* Average Reading Score went from 83.8 to 83.9
+* % Passing Math went from from 93.3 to 93.2
+* % Passing Reading went from 97.3 to 97.0
+* % Passing Overall went from 90.9 to 90.6
 
 #### School summary with THS 9th graders
 ![](Resources/school_summary_with_THS9.png)
@@ -32,13 +38,16 @@ Similarly, THS's statistics were also affected.
 ### School Rankings
 THS's school standing with the 9th scores included was second.  After removing the questionable scores, THS's remained as the second ranking school.
 
+#### School rankings without THS 9th graders
+![](Resources/School_Rankings_woTHS9th.png)
+
 ### Math and Reading Scores by Grade
 When grouped by school, math and reading scores accross grade levels were stable, with the notable exception of no longer having data for the 9th grade class at THS.
 
 #### Math scores by grade
 ![](Resources/AvgMathScoresPerGrade_withoutTHS9th.png)
 
-#### Rreading scores by grade
+#### Reading scores by grade
 ![](Resources/AvgReadingScoresPerGrade_withoutTHS9th.png)
 
 ### Scores by School Spending
