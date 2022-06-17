@@ -4,12 +4,15 @@
 The purpose of this project was to aggregate student math and reading scores and analyze the data to uncover trends related to school spending, size, and type.  After an initial analysis, evidence of academic dishonesty among the ninth grade class at Thomas High School warrented a revised analysis, removing the affected scores and re-examining the data and trends.
 
 ## Results
-*
-
-
 
 ### How is the district summary affected?
-Removing THS's ninth grade scores marginally lowered the scores for the district, as displayed below.
+Removing THS's ninth grade scores lowered the scores for the district, as displayed below.
+
+* Average Math Score went from 79.0 to 78.9
+* Average Reading Score remained steady at 81.9
+* % Passing Math went from 75% to 74.8%
+* % Passing Reading went from 86% to 85.7%
+* % Passing Overall went from 65% to 64.9%
 
 #### District summary with THS 9th graders
 ![](Resources/DistrictSummary_wTHS.png)
@@ -18,7 +21,7 @@ Removing THS's ninth grade scores marginally lowered the scores for the district
 ![](Resources/DistrictSummary_woTHS.png)
 
 ### How is the school summary affected?
-Similarly, THS's statistics did not change signifiantly.  
+Similarly, THS's statistics were also affected.  
 
 #### School summary with THS 9th graders
 ![](Resources/school_summary_with_THS9.png)
@@ -63,3 +66,4 @@ When grouped by school, math and reading scores accross grade levels were stable
 ![](Resources/ScoresByType_woTHS9.png)
 
 # Summary 
+After removing the THS ninth grade scores, 4 key metrics at the district level were affected: Average Math Score, % Passing Math, % Passing Reading, and % Passing overall declined. 
